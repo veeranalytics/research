@@ -2,7 +2,7 @@
 
 # Experimental Results and Evaluation Tables
 
-## Table 02: Books Dataset — Evaluation Metrics for Complete Data
+## Table 01: Books Dataset — Evaluation Metrics for Complete Data
 
 | Evaluation Metrics / Models | PBCF | KGAT | RippleNet | LightGCN | CEKG | D-HKG |
 |---|---|---|---|---|---|---|
@@ -25,7 +25,7 @@
 
 ---
 
-## Table 03: Yelp Dataset — Evaluation Metrics for Complete Data
+## Table 02: Yelp Dataset — Evaluation Metrics for Complete Data
 
 | Evaluation Metrics / Models | PBCF | KGAT | RippleNet | LightGCN | CEKG | D-HKG |
 |---|---|---|---|---|---|---|
@@ -48,7 +48,7 @@
 
 ---
 
-## Table 04: Movies Dataset — Evaluation Metrics for Complete Data
+## Table 03: Movies Dataset — Evaluation Metrics for Complete Data
 
 | Evaluation Metrics / Models | PBCF | KGAT | RippleNet | LightGCN | CEKG | D-HKG |
 |---|---|---|---|---|---|---|
@@ -89,10 +89,6 @@
 - **LightGCN**: Light Graph Convolutional Network  
 - **CEKG**: Community Enhanced Knowledge Graph  
 - **D-HKG**: Dynamic Hybrid Knowledge Graph  
-"""
 
-path = Path("/mnt/data/results_tables.md")
-path.write_text(md_content)
-
-print(f"Markdown file created at: {path}")
+# The Data used for the research is uploaded. The Python codes for building the models are also uploaded.
 
